@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginC from './Component/LoginC';
+import LoginContext from './Context/LoginContext';
+import FormClassC from './Component/FormClassC';
+import FormFuncC from './Component/FormFunC';
+import LoginCRef from './Component/LoginCRef';
+import PageTitleFirst from './Component/PageTitleFirst';
+import PageTitleEvery from './Component/PageTitleEvery';
+import TitlePageOnChange from './Component/TitlePageOnChange';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LoginC/>
+      <LoginContext />
+      <FormClassC/> 
+      <FormFuncC/>
+      <LoginCRef/>
+      <PageTitleFirst/>
+      <PageTitleEvery/>
+      <TitlePageOnChange/>
     </div>
   );
 }
