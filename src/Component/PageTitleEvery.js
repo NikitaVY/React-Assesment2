@@ -12,7 +12,7 @@ const PageTitleEvery = () => {
   };
 
   return (
-    <div>
+    <div class="form4">
       <h4>Update Title Every Render</h4>
       <input type="text" value={D} onChange={handleChange} placeholder="Enter the title" />
     </div>

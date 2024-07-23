@@ -1,38 +1,52 @@
 .App {
   text-align: center;
+  background-color: rgba(0, 255, 255, 0.226);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form1{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(165, 42, 42, 0.349);
+  padding: 20px;
+  margin-left: 380px;
+}
+.form2{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(165, 157, 42, 0.349);
+  padding: 20px;
+  margin-left: 380px;
+}
+.form1 input{
+  background-color: rgb(174, 194, 247);
+}
+.form1 button{
+  background-color: rgb(177, 144, 37);
+}
+.form2 input{
+  background-color: rgba(202, 144, 89, 0.349);
+}
+.form2 button{
+  background-color: rgb(177, 77, 37);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form3{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(165, 157, 42, 0.349);
+  padding: 20px;
+  margin-left: 380px;
+}
+.form3 input{
+  background-color: rgba(202, 144, 89, 0.349);
+}
+.form3 button{
+  background-color: rgb(201, 160, 83);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form4 input{
+  background-color: rgb(174, 194, 247);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form4 button{
+  background-color: rgb(177, 77, 37);
 }

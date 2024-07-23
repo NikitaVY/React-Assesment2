@@ -22,7 +22,7 @@ const LoginCRef = () => {
   return (
     <div>
       {userDetails === null ? (
-        <form onSubmit={handleSubmit}>
+        <form class="form3" onSubmit={handleSubmit}>
           <div>
             <h2>Using ref</h2>
             <label>Username:</label>

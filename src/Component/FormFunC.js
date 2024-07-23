@@ -27,7 +27,7 @@ export default function FormFuncC() {
     }
     return (
         <>
-            <form onSubmit={submitData}>
+            <form class="form1" onSubmit={submitData}>
                 <div>
                     <h2>Login Form Using Function Component</h2>
                     <label> Enter Username </label>

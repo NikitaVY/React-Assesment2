@@ -31,7 +31,7 @@ export default class FormClassC extends Component
     {
         return(
             <>
-                <form  onSubmit={this.submitData}> 
+                <form  class="form1" onSubmit={this.submitData}> 
                     <div>
                         <h2>Login Form Using Class Component</h2>
                         <label> Enter Name </label>

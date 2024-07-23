@@ -28,7 +28,7 @@ function LoginC() {
   }
 
   return (
-    <div>
+    <div  class="form2">
       <h2>Login Form</h2>
       <form onSubmit={handleSubmit}>
         <label>Username

@@ -11,18 +11,18 @@ const PageTitleFirst = () => {
     }
   },[titleSet, D]); 
 
-  useEffect(() => {
+  const handleButtonClick = () => {
     document.title = D;
-  }, [D]);
-
+  };
   const handleChange = (event) => {
     setD(event.target.value);
   };
 
   return (
-    <div>
+    <div class="form4">
       <h4>Update Title Only First Time</h4>
       <input type="text" value={D} onChange={handleChange} />
+      <button onClick={handleButtonClick}>Update</button>
     </div>
   );
 };
